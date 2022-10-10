@@ -4,6 +4,7 @@ import Navbar from '../components/navbar'
 import Hero from '../components/hero'
 import About1 from '../components/about'
 import Customer from '../components/customers'
+import Footer1 from '../components/footer'
 
 
 
@@ -17,7 +18,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About1 />
-      <Customer/>
+      <Customer />
+      <Footer1/>
     </div>
   )
 }
