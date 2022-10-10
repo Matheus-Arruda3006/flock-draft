@@ -28,7 +28,7 @@ const Footer1 = () => {
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
 
-                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">(257) 563-7401</span>
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-black-400">(65) 99907-5959</span>
                     </p>
 
                     <p class="flex items-start -mx-2">
@@ -36,12 +36,12 @@ const Footer1 = () => {
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
 
-                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">acb@example.com</span>
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">comercial@flockmarketing.com.br</span>
                     </p>
                 </div>
 
                 <div class="mt-6 w-80 md:mt-8">
-                    <h3 class="text-gray-600 dark:text-gray-300 ">Follow us</h3>
+                    <h3 class="text-gray-600 light:text-gray-300 ">Follow us</h3>
 
                     <div class="flex mt-4 -mx-1.5 ">
                         <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
