@@ -1,4 +1,8 @@
 import React from "react";
+import Image from 'next/image';
+import Nord from '../src/assets/svg/imgnord.png';
+
+
 function Index() {
     return (
         <div className="container mx-auto pt-16">
@@ -8,7 +12,7 @@ function Index() {
             </div>
             <div className="xl:py-16 lg:py-16 md:py-16 sm:py-16 px-15 flex flex-wrap">
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <img src="https://cdn.tuk.dev/assets/adidas-dark.png" alt />
+                    <Image src={Nord} alt='logo-nordeste' />
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r border-gray-200 xl:pb-10 pb-16 items-center">
                     <img src="https://cdn.tuk.dev/assets/channel-dark.png" alt />
@@ -37,3 +41,4 @@ function Index() {
 }
 
 export default Index;
+
