@@ -9,7 +9,7 @@ const Footer1 = () => {
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
                 <h1 class="text-3xl font-semibold text-gray-800 capitalize dark:text-black lg:text-5xl">
-                    Contact us for <br/> more info
+                    Para mais informações <br/> fale conosco.
                 </h1>
 
                 <div class="mt-6 space-y-8 md:mt-8">
@@ -42,7 +42,7 @@ const Footer1 = () => {
                 </div>
 
                 <div class="mt-6 w-80 md:mt-8">
-                    <h3 class="text-gray-600 light:text-gray-300 ">Follow us</h3>
+                    <h3 class="text-gray-600 light:text-gray-300 ">Fique por dentro</h3>
 
                     <div class="flex mt-4 -mx-1.5 ">
                         
@@ -64,7 +64,7 @@ const Footer1 = () => {
             <div class="mt-8 lg:w-1/2 lg:mx-6">
                 <div
                     class="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl light:bg-white-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
-                    <h1 class="text-lg font-medium text-gray-700">What do you want to ask</h1>
+                    <h1 class="text-lg font-medium text-gray-700">Mande alguma dúvida para nossos consultores:</h1>
 
                     <form class="mt-6">
                         <div class="flex-1">
