@@ -1,4 +1,10 @@
 import React from "react";
+import Image from 'next/image'
+import Claudia from '../src/assets/svg/fotoperfilclaudia.jpg';
+import Thais from '../src/assets/svg/fotoperfilthais.jpg';
+import Sabrina from '../src/assets/svg/fotoperfilsabrina.jpg';
+import Marcelya from '../src/assets/svg/fotoperfilhalinemarcelya.jpg';
+import FotoStaff from '../src/assets/svg/fotostaff.jpg';
 
 const About1 = () => {
     return (
@@ -9,7 +15,7 @@ const About1 = () => {
                     <p className="font-normal text-base leading-6 text-gray-600 ">A maioria das pessoas antes de comprar um produto costuma pesquisar sobre este produto nas redes sociais, por isso é tão importante se destacar.</p>
                 </div>
                 <div className="w-full lg:w-8/12 ">
-                    <img className="w-full h-full" src="https://i.ibb.co/FhgPJt8/Rectangle-116.png" alt="A group of People" />
+                    <Image src={FotoStaff} width={900} height={650}/>
                 </div>
             </div>
 
@@ -21,23 +27,19 @@ const About1 = () => {
                 <div className="w-full lg:w-8/12 lg:pt-8">
                     <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
                         <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img className="md:block hidden" src="https://i.ibb.co/FYTKDG6/Rectangle-118-2.png" alt="Alexa featured Img" />
-                            <img className="md:hidden block" src="https://i.ibb.co/zHjXqg4/Rectangle-118.png" alt="Alexa featured Img" />
+                            <Image src={Claudia} width={600} height={800}/> 
                             <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Cláudia Cordeiro</p>
                         </div>
                         <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img className="md:block hidden" src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Img" />
-                            <img className="md:hidden block" src="https://i.ibb.co/NrWKJ1M/Rectangle-119.png" alt="Olivia featured Img" />
+                            <Image src={Thais} width={600} height={800}/>
                             <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Thais Regina </p>
                         </div>
                         <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img className="md:block hidden" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Img" />
-                            <img className="md:hidden block" src="https://i.ibb.co/C5MMBcs/Rectangle-120.png" alt="Liam featued Img" />
+                            <Image src={Sabrina} width={600} height={800}/>
                             <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Sabrina</p>
                         </div>
                         <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img className="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" />
-                            <img className="md:hidden block" src="https://i.ibb.co/ThZBWxH/Rectangle-121.png" alt="Elijah featured img" />
+                            <Image src={Marcelya} width={600} height={800}/>
                             <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Marcelya</p>
                         </div>
                     </div>
