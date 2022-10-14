@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import Image from 'next/image'
+import VideoBg from '../src/assets/svg/fundooriginal.mp4'
+ 
 function Index() {
     const [show, setShow] = useState(false);
     return (

@@ -1,6 +1,14 @@
 import React from "react";
 import Image from 'next/image';
 import Nord from '../src/assets/svg/imgnord.png';
+import MegaNord from '../src/assets/svg/meganordeste.png';
+import Nika from '../src/assets/svg/logonika.png';
+import DmImobiliaria from '../src/assets/svg/logodm.png'
+import Dentista from '../src/assets/svg/logodentista.png'
+import RadarAuto from '../src/assets/svg/logohorizontal.png'
+import CuiabaLar from '../src/assets/svg/logocuiabalar.png'
+import FernandaPio from '../src/assets/svg/logofernanda.png'
+import LuccianeLogo from '../src/assets/svg/logolucciane.png'
 
 
 function Index() {
@@ -14,27 +22,29 @@ function Index() {
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
                     <Image src={Nord} alt='logo-nordeste' />
                 </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <img src="https://cdn.tuk.dev/assets/channel-dark.png" alt />
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                    <Image src={MegaNord} alt='logo-meganordeste' />
                 </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b border-gray-200 xl:pb-10 pb-16 pt-4 items-center">
-                    <img src="https://cdn.tuk.dev/assets/nike-dark.png" alt />
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                    <Image src={LuccianeLogo} alt='logo-lucciane'/>
                 </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center lg:border-b xl:border-b lg:border-l xl:border-l border-gray-200 xl:pb-10 pb-16 items-center">
-                    <img src="https://cdn.tuk.dev/assets/toyota-dark.png" alt />
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                    <Image src={FernandaPio} alt='logo-fernanda'/>
                 </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center">
-                    <img src="https://cdn.tuk.dev/assets/gs1-dark.png" alt />
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                    <Image src={RadarAuto} alt='logo-radar'/>
                 </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center">
-                    <img src="https://cdn.tuk.dev/assets/berry-dark.png" alt />
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                    <Image src={Nika} alt='logo-nika'/>
                 </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:pt-10 lg:pt-10 md:pt-2 pt-16">
-                    <img src="https://cdn.tuk.dev/assets/min-dark.png" alt />
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                    <Image src={DmImobiliaria} alt='logo-dm'/>
                 </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-l lg:border-l border-gray-200 xl:pt-10 lg:pt-10 md:pt-2 pt-16">
-                    <img src="https://cdn.tuk.dev/assets/honda-dark.png" alt />
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                    <Image src={CuiabaLar} alt='logo-cuiabalar'/>
                 </div>
+               
+                
             </div>
         </div>
     );
