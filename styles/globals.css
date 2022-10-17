@@ -8,7 +8,7 @@ html {
 }
 
 .main-container{
-  background-image: url('../src/assets/svg/bg-code.jpg');
+  background-image: url('../src/assets/svg/fundorobo.jpg');
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -30,6 +30,10 @@ html {
   margin: auto;
 }
 
+.custom-navbar{
+  background-color: #c8a2c85e;
+}
+
 .custom-navbar nav{
-  background-color: rgba(255, 255, 255, 0.341);
+  opacity: 0.8;
 }
