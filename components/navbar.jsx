@@ -6,7 +6,7 @@ export default function index() {
 
     const [show, setshow] = useState(false);
     return (
-        <div className=" bg-white ">
+        <div className="custom-navbar">
             <nav className="2xl:container 2xl:mx-auto sm:py-6 sm:px-7 py-5 px-4">
                 {/* For large and Medium-sized Screen */}
                 <div className="flex justify-between ">

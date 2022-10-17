@@ -7,3 +7,29 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+.main-container{
+  background-image: url('../src/assets/svg/bg-code.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.custom-button{
+  margin-top: 500px;
+}
+
+.custom-logo{
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 110px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.custom-navbar nav{
+  background-color: rgba(255, 255, 255, 0.341);
+}
