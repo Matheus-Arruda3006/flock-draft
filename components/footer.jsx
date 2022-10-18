@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import emailjs from '@emailjs/browser'
+import { db } from './firebase'
 
 
 

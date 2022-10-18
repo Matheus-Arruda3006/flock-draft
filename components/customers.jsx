@@ -20,31 +20,29 @@ function Index() {
             </div>
             <div className="xl:py-16 lg:py-16 md:py-16 sm:py-16 px-15 flex flex-wrap">
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <Image src={Nord} alt='logo-nordeste' />
+                    <Image src={Nord} alt='logo-nordeste' width={200} height={200} />
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <Image src={MegaNord} alt='logo-meganordeste' />
+                    <Image src={MegaNord} alt='logo-meganordeste' width={200} height={200} />
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <Image src={LuccianeLogo} alt='logo-lucciane'/>
+                    <Image src={LuccianeLogo} alt='logo-lucciane' width={200} height={200}/>
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <Image src={FernandaPio} alt='logo-fernanda'/>
+                    <Image src={FernandaPio} alt='logo-fernanda' width={200} height={200}/>
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <Image src={RadarAuto} alt='logo-radar'/>
+                    <Image src={RadarAuto} alt='logo-radar' width={200} height={200}/>
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <Image src={Nika} alt='logo-nika'/>
+                    <Image src={Nika} alt='logo-nika'width={200} height={200}/>
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <Image src={DmImobiliaria} alt='logo-dm'/>
+                    <Image src={DmImobiliaria} alt='logo-dm' width={200} height={200}/>
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                    <Image src={CuiabaLar} alt='logo-cuiabalar'/>
-                </div>
-               
-                
+                    <Image src={CuiabaLar} alt='logo-cuiabalar' width={200} height={200}/>
+                </div>   
             </div>
         </div>
     );
