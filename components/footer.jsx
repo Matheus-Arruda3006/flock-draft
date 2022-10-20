@@ -2,13 +2,14 @@ import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import emailjs from '@emailjs/browser'
-
-
-
-
-
+import { db } from "./sendemailfunc.jsx"
 
 const Footer1 = () => {
+
+    
+
+
+
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
@@ -126,7 +127,7 @@ const Footer1 = () => {
 
                         <div class="w-full mt-6">
                             <label class="block mb-2 text-sm text-gray-600 light:text-gray-200">Mensagem</label>
-                            <textarea class="block w-full h-32 px-5 py-3 mt-2 text-black-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 light:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Mensagem..." onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
+                            <textarea class="block w-full h-32 px-5 py-3 mt-2 text-black-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 light:bg-gray-900 dark:text-black-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Mensagem..." onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
                         </div>
 
                         <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">

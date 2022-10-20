@@ -5,6 +5,7 @@ import Hero from '../components/hero'
 import About1 from '../components/about'
 import Customer from '../components/customers'
 import Footer1 from '../components/footer'
+import sendemailfunc from '../components/sendemailfunc.jsx'
 
 
 
