@@ -2,13 +2,9 @@ import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import emailjs from '@emailjs/browser'
-import { db } from "./sendemailfunc.jsx"
+
 
 const Footer1 = () => {
-
-    
-
-
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
